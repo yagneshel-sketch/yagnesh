@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <title>Register form</title>
+</head>
+<body>
+
+   
+    <form action="/">
+        <label for="username">username:</label>
+        <input type="text" id="username" name="username" required><br><br>       
+        <label for="password">password:</label>
+        <input type="password" id="password" name="password" maxlength="12" required><br><br>   
+        <label for="email">email:</label>
+        <input type="email" id="email" name="email""><br><br>       
+        <label for="phone">phone number :</label>
+        <input type="tel" id="phone" name="phone "><br><br>
+        <label for="bday">birthdate:</label>
+        <input type="date" id="bday" name="bday"><br><br> 
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="male" value="male">
+        <label for="male">male</label><br>
+        <input type="radio" id="female" name="female" value="female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="other" value="other">
+        <label for="other">other</label><br><br>       
+        <label for="course">course:</label>
+        <select id="course" name="course">
+            <option value="Btech">B Tech</option>
+            <option value="Mtech">M Tech</option>
+            <option value="Diploma">Diploma</option>
+        </select><br><br>
+        <label>hobbies :</label><br><br>
+
+<input type="checkbox" id="Reading" name="hobbies" value="Reading">
+<label for="Reading">Reading</label><br><br>
+
+<input 
+    type="checkbox"
+    name="hobbies"
+    id="dancing"
+    value="dancing"
+    checked> 
+<label for="dancing">Dancing</label><br><br>
+
+<label for="Adress">Adress:</label><br> 
+<textarea id="Adress" name="Adress" rows="3" cols="30" placeholder="Your Adress"></textarea><br><br>
+
+</form>
+</body>
+</html>

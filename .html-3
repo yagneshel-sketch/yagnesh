@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student List</title>
+</head>
+<body>
+
+    <h2>Student Roster</h2>
+    
+    <ul style="list-style-type: square;">
+        <li>Alice Smith</li>
+        <li>Bob Jones</li>
+        <li>Charlie Brown</li>
+    </ul>
+
+</body>
+</html>

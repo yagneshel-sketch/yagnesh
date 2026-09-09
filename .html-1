@@ -1,0 +1,37 @@
+!DOCTYPE html> 
+<html><head> 
+    <title>student marks</title>
+</head>  
+<body>
+    <table border="1" >
+        <tr> 
+            <th>student</th> 
+            <th>subject </th> 
+            <th>marks</th> 
+        </tr> 
+        <tr>\ 
+            <td rowspan="2">RIYA</td> 
+            <td>html</td> 
+            <td>85</td>
+        </tr> 
+        <tr> 
+            <td>css</td> 
+            <td>80</td> 
+        </tr> 
+        <tr> 
+            <td rowspan="2">SIYA</td>
+            <td>html</td>
+            <td>90</td>
+        </tr> 
+        <tr>
+            <td>css</td>
+            <td>88</td>
+        </tr>
+        <td colspan="2">total</td>
+        <td>343</td>
+
+        </tr>
+
+    </table>
+</body>
+</html>
